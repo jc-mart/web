@@ -1,10 +1,6 @@
 /* Hero banner */
 .hero-banner {
-  background-image: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.4),
-    rgba(0, 0, 0, 0.4)
-  );
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -13,4 +9,36 @@
   text-align: center;
   font-size: x-large;
   color: white;
+}
+
+body {
+  background-color: black;
+  color: lime;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+a:link {
+  color: greenyellow;
+}
+
+a:visited {
+  color: forestgreen;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: lime;
+}
+
+img {
+  border: 5px solid lime;
+}
+
+img.responsive {
+  width: 95%;
+  max-width: 400px;
+  height: auto;
 }
